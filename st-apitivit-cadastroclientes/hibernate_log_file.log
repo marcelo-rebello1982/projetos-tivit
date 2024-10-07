@@ -1,0 +1,1607 @@
+"06-10-2024 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+""06-10-2024 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+""06-10-2024 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""06-10-2024 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+""06-10-2024 [main] WARN  com.zaxxer.hikari.HikariConfig - POSTGRESQL-POOL - idleTimeout is close to or more than maxLifetime, disabling it.
+""06-10-2024 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""06-10-2024 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""06-10-2024 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'estadoController': Unsatisfied dependency expressed through field 'EMPTY_MSG'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+""06-10-2024 [main] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.12/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.12/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1625)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:840)
+""06-10-2024 [main] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.12/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.12/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1625)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:840)
+""06-10-2024 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field EMPTY_MSG in br.com.cadastroit.services.web.controllers.commons.ApiCadastroCommonsController required a bean of type 'java.lang.String' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+""06-10-2024 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+""06-10-2024 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+""06-10-2024 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""06-10-2024 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+""06-10-2024 [main] WARN  com.zaxxer.hikari.HikariConfig - POSTGRESQL-POOL - idleTimeout is close to or more than maxLifetime, disabling it.
+""06-10-2024 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""06-10-2024 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""06-10-2024 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.EstadoController:
+	{GET [/administracao/estado/find/{id}]}: find(Long,Long)
+	{DELETE [/administracao/estado/delete/{id}]}: delete(Long,Long)
+	{GET [/administracao/estado/all/{page}/{length}]}: all(Long,Map,int,int)
+	{POST [/administracao/estado/findByFilters/{page}/{length}]}: findByFilters(Long,Map,int,int,EstadoDTO)
+	{GET [/administracao/estado/maxId]}: maxId(Long)
+	{GET [/administracao/estado/porta]}: findPort(String)
+	{POST [/administracao/estado/create]}: handlePost(Long,EstadoDTO)
+	{PUT [/administracao/estado/update/{id}]}: handleUpdate(Long,Long,EstadoDTO)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.PessoaController:
+	{GET [/administracao/pessoa/find/{id}]}: find(Long,String)
+	{GET [/administracao/pessoa/status]}: status(String)
+	{GET [/administracao/pessoa/all/{page}/{length}]}: all(Long,Map,int,int)
+	{GET [/administracao/pessoa/maxId]}: maxId()
+	{GET [/administracao/pessoa/findUfByCriteria/{uf}]}: findUfByCriteria(String,String)
+	{GET [/administracao/pessoa/findUfByJPQL/{page}/{length}]}: findUfByJPQL(Long,int,int,Map)
+	{GET [/administracao/pessoa/findByQueryParam/{uf}]}: findByQueryParam(String)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.TelefoneController:
+	{GET [/administracao/telefone/find/{id}]}: find(Long,Long)
+	{DELETE [/administracao/telefone/delete/{id}]}: delete(Long,Long)
+	{GET [/administracao/telefone/all/{page}/{length}]}: all(Long,Map,int,int)
+	{POST [/administracao/telefone/findByFilters/{page}/{length}]}: findByFilters(Long,Map,int,int,TelefoneDTO)
+	{GET [/administracao/telefone/maxId]}: maxId(Long)
+	{GET [/administracao/telefone/porta]}: findPort(String)
+	{POST [/administracao/telefone/create]}: handlePost(Long,TelefoneDTO)
+	{PUT [/administracao/telefone/update/{id}]}: handleUpdate(Long,Long,TelefoneDTO)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.a.OpenApiWebMvcResource:
+	{GET [/v3/api-docs.yaml], produces [application/vnd.oai.openapi]}: openapiYaml(HttpServletRequest,String,Locale)
+	{GET [/v3/api-docs], produces [application/json]}: openapiJson(HttpServletRequest,String,Locale)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.u.SwaggerWelcomeWebMvc:
+	{GET [/swagger-ui.html]}: redirectToUi(HttpServletRequest)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.u.SwaggerConfigResource:
+	{GET [/v3/api-docs/swagger-config], produces [application/json]}: openapiJson(HttpServletRequest)
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 29 mappings in 'requestMappingHandlerMapping'
+""06-10-2024 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+""06-10-2024 [main] WARN  o.s.amqp.rabbit.core.RabbitAdmin - RabbitAdmin auto declaration is not supported with CacheMode.CONNECTION
+""06-10-2024 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+""06-10-2024 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+""06-10-2024 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""06-10-2024 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5efa05f9
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@67201eeb
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+""06-10-2024 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+""06-10-2024 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+""06-10-2024 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""06-10-2024 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+""06-10-2024 [main] WARN  com.zaxxer.hikari.HikariConfig - POSTGRESQL-POOL - idleTimeout is close to or more than maxLifetime, disabling it.
+""06-10-2024 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""06-10-2024 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""06-10-2024 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.EstadoController:
+	{GET [/administracao/estado/find/{id}]}: find(Long,Long)
+	{DELETE [/administracao/estado/delete/{id}]}: delete(Long,Long)
+	{GET [/administracao/estado/all/{page}/{length}]}: all(Long,Map,int,int)
+	{GET [/administracao/estado/maxId]}: maxId(Long)
+	{POST [/administracao/estado/findByFilters/{page}/{length}]}: findByFilters(Long,Map,int,int,EstadoDTO)
+	{GET [/administracao/estado/porta]}: findPort(String)
+	{POST [/administracao/estado/create]}: handlePost(Long,EstadoDTO)
+	{PUT [/administracao/estado/update/{id}]}: handleUpdate(Long,Long,EstadoDTO)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.PessoaController:
+	{GET [/administracao/pessoa/find/{id}]}: find(Long,String)
+	{GET [/administracao/pessoa/status]}: status(String)
+	{GET [/administracao/pessoa/all/{page}/{length}]}: all(Long,Map,int,int)
+	{GET [/administracao/pessoa/maxId]}: maxId()
+	{GET [/administracao/pessoa/findUfByJPQL/{page}/{length}]}: findUfByJPQL(Long,int,int,Map)
+	{GET [/administracao/pessoa/findUfByCriteria/{uf}]}: findUfByCriteria(String,String)
+	{GET [/administracao/pessoa/findByQueryParam/{uf}]}: findByQueryParam(String)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.TelefoneController:
+	{GET [/administracao/telefone/find/{id}]}: find(Long,Long)
+	{DELETE [/administracao/telefone/delete/{id}]}: delete(Long,Long)
+	{GET [/administracao/telefone/all/{page}/{length}]}: all(Long,Map,int,int)
+	{GET [/administracao/telefone/maxId]}: maxId(Long)
+	{POST [/administracao/telefone/findByFilters/{page}/{length}]}: findByFilters(Long,Map,int,int,TelefoneDTO)
+	{GET [/administracao/telefone/porta]}: findPort(String)
+	{POST [/administracao/telefone/create]}: handlePost(Long,TelefoneDTO)
+	{PUT [/administracao/telefone/update/{id}]}: handleUpdate(Long,Long,TelefoneDTO)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.a.OpenApiWebMvcResource:
+	{GET [/v3/api-docs.yaml], produces [application/vnd.oai.openapi]}: openapiYaml(HttpServletRequest,String,Locale)
+	{GET [/v3/api-docs], produces [application/json]}: openapiJson(HttpServletRequest,String,Locale)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.u.SwaggerWelcomeWebMvc:
+	{GET [/swagger-ui.html]}: redirectToUi(HttpServletRequest)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.u.SwaggerConfigResource:
+	{GET [/v3/api-docs/swagger-config], produces [application/json]}: openapiJson(HttpServletRequest)
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 29 mappings in 'requestMappingHandlerMapping'
+""06-10-2024 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+""06-10-2024 [main] WARN  o.s.amqp.rabbit.core.RabbitAdmin - RabbitAdmin auto declaration is not supported with CacheMode.CONNECTION
+""06-10-2024 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+""06-10-2024 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+""06-10-2024 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""06-10-2024 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3a744e32
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5fb58f15
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+""06-10-2024 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/administracao/pessoa/findUfByJPQL/1/100", parameters={}
+""06-10-2024 [http-nio-8080-exec-2] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to br.com.cadastroit.services.web.controllers.PessoaController#findUfByJPQL(Long, int, int, Map)
+""06-10-2024 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json, application/cbor, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+""06-10-2024 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing ["{<EOL><EOL>  "message" : "Cannot invoke \"br.com.cadastroit.services.repositories.PessoaRepository.count(jav (truncated)..."]
+""06-10-2024 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+""06-10-2024 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+""06-10-2024 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+""06-10-2024 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""06-10-2024 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+""06-10-2024 [main] WARN  com.zaxxer.hikari.HikariConfig - POSTGRESQL-POOL - idleTimeout is close to or more than maxLifetime, disabling it.
+""06-10-2024 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""06-10-2024 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""06-10-2024 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.EstadoController:
+	{GET [/administracao/estado/find/{id}]}: find(Long,Long)
+	{DELETE [/administracao/estado/delete/{id}]}: delete(Long,Long)
+	{GET [/administracao/estado/all/{page}/{length}]}: all(Long,Map,int,int)
+	{GET [/administracao/estado/porta]}: findPort(String)
+	{POST [/administracao/estado/findByFilters/{page}/{length}]}: findByFilters(Long,Map,int,int,EstadoDTO)
+	{GET [/administracao/estado/maxId]}: maxId(Long)
+	{PUT [/administracao/estado/update/{id}]}: handleUpdate(Long,Long,EstadoDTO)
+	{POST [/administracao/estado/create]}: handlePost(Long,EstadoDTO)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.PessoaController:
+	{GET [/administracao/pessoa/find/{id}]}: find(Long,String)
+	{GET [/administracao/pessoa/status]}: status(String)
+	{GET [/administracao/pessoa/all/{page}/{length}]}: all(Long,Map,int,int)
+	{GET [/administracao/pessoa/maxId]}: maxId()
+	{GET [/administracao/pessoa/findUfByJPQL/{page}/{length}]}: findUfByJPQL(Long,int,int,Map)
+	{GET [/administracao/pessoa/findUfByCriteria/{uf}]}: findUfByCriteria(String,String)
+	{GET [/administracao/pessoa/findByQueryParam/{uf}]}: findByQueryParam(String)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.TelefoneController:
+	{GET [/administracao/telefone/find/{id}]}: find(Long,Long)
+	{DELETE [/administracao/telefone/delete/{id}]}: delete(Long,Long)
+	{GET [/administracao/telefone/all/{page}/{length}]}: all(Long,Map,int,int)
+	{GET [/administracao/telefone/porta]}: findPort(String)
+	{POST [/administracao/telefone/findByFilters/{page}/{length}]}: findByFilters(Long,Map,int,int,TelefoneDTO)
+	{GET [/administracao/telefone/maxId]}: maxId(Long)
+	{PUT [/administracao/telefone/update/{id}]}: handleUpdate(Long,Long,TelefoneDTO)
+	{POST [/administracao/telefone/create]}: handlePost(Long,TelefoneDTO)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.a.OpenApiWebMvcResource:
+	{GET [/v3/api-docs], produces [application/json]}: openapiJson(HttpServletRequest,String,Locale)
+	{GET [/v3/api-docs.yaml], produces [application/vnd.oai.openapi]}: openapiYaml(HttpServletRequest,String,Locale)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.u.SwaggerWelcomeWebMvc:
+	{GET [/swagger-ui.html]}: redirectToUi(HttpServletRequest)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.u.SwaggerConfigResource:
+	{GET [/v3/api-docs/swagger-config], produces [application/json]}: openapiJson(HttpServletRequest)
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 29 mappings in 'requestMappingHandlerMapping'
+""06-10-2024 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+""06-10-2024 [main] WARN  o.s.amqp.rabbit.core.RabbitAdmin - RabbitAdmin auto declaration is not supported with CacheMode.CONNECTION
+""06-10-2024 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+""06-10-2024 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+""06-10-2024 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""06-10-2024 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@58e2af93
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4d25943d
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+""06-10-2024 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/administracao/pessoa/findUfByJPQL/1/100", parameters={}
+""06-10-2024 [http-nio-8080-exec-1] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to br.com.cadastroit.services.web.controllers.PessoaController#findUfByJPQL(Long, int, int, Map)
+""06-10-2024 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* dynamic native SQL query */ SELECT
+        COUNT (*) 
+    FROM
+        PESSOA P 
+    INNER JOIN
+        ESTADO E 
+            ON E.ID = P.ESTADO_ID 
+    WHERE
+        P.ESTADO_ID = '25';
+""06-10-2024 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* dynamic native SQL query */ SELECT
+        P.ID,
+        P.NOME,
+        P.RAZAOSOCIAL,
+        P.STATUS,
+        P.TIPOPESSOA,
+        P.ESTADO_ID,
+        P.UPDATEAT,
+        P.ENDERECO_ID,
+        P.TELEFONE_ID 
+    FROM
+        PESSOA P 
+    INNER JOIN
+        ESTADO E 
+            ON E.ID = P.ESTADO_ID 
+    WHERE
+        P.ESTADO_ID = '25' 
+    ORDER BY
+        P.ID DESC limit ?
+""06-10-2024 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json, application/cbor, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+""06-10-2024 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[PessoaDTO(id=2, nome=PATRICIA, razaosocial=RAZAOSOCIAL, tipoPessoa=FISICA, tipoTelefone=null, statu (truncated)...]
+""06-10-2024 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""06-10-2024 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+""06-10-2024 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+""06-10-2024 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""06-10-2024 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+""06-10-2024 [main] WARN  com.zaxxer.hikari.HikariConfig - POSTGRESQL-POOL - idleTimeout is close to or more than maxLifetime, disabling it.
+""06-10-2024 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""06-10-2024 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""06-10-2024 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.EstadoController:
+	{GET [/administracao/estado/find/{id}]}: find(Long,Long)
+	{DELETE [/administracao/estado/delete/{id}]}: delete(Long,Long)
+	{GET [/administracao/estado/all/{page}/{length}]}: all(Long,Map,int,int)
+	{GET [/administracao/estado/maxId]}: maxId(Long)
+	{POST [/administracao/estado/findByFilters/{page}/{length}]}: findByFilters(Long,Map,int,int,EstadoDTO)
+	{GET [/administracao/estado/porta]}: findPort(String)
+	{POST [/administracao/estado/create]}: handlePost(Long,EstadoDTO)
+	{PUT [/administracao/estado/update/{id}]}: handleUpdate(Long,Long,EstadoDTO)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.PessoaController:
+	{GET [/administracao/pessoa/find/{id}]}: find(Long,String)
+	{GET [/administracao/pessoa/status]}: status(String)
+	{GET [/administracao/pessoa/all/{page}/{length}]}: all(Long,Map,int,int)
+	{GET [/administracao/pessoa/maxId]}: maxId()
+	{GET [/administracao/pessoa/findUfByJPQL/{page}/{length}]}: findUfByJPQL(Long,int,int,Map)
+	{GET [/administracao/pessoa/findUfByCriteria/{uf}]}: findUfByCriteria(String,String)
+	{GET [/administracao/pessoa/findByQueryParam/{uf}]}: findByQueryParam(String)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.TelefoneController:
+	{GET [/administracao/telefone/find/{id}]}: find(Long,Long)
+	{DELETE [/administracao/telefone/delete/{id}]}: delete(Long,Long)
+	{GET [/administracao/telefone/all/{page}/{length}]}: all(Long,Map,int,int)
+	{GET [/administracao/telefone/maxId]}: maxId(Long)
+	{POST [/administracao/telefone/findByFilters/{page}/{length}]}: findByFilters(Long,Map,int,int,TelefoneDTO)
+	{GET [/administracao/telefone/porta]}: findPort(String)
+	{POST [/administracao/telefone/create]}: handlePost(Long,TelefoneDTO)
+	{PUT [/administracao/telefone/update/{id}]}: handleUpdate(Long,Long,TelefoneDTO)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.a.OpenApiWebMvcResource:
+	{GET [/v3/api-docs.yaml], produces [application/vnd.oai.openapi]}: openapiYaml(HttpServletRequest,String,Locale)
+	{GET [/v3/api-docs], produces [application/json]}: openapiJson(HttpServletRequest,String,Locale)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.u.SwaggerWelcomeWebMvc:
+	{GET [/swagger-ui.html]}: redirectToUi(HttpServletRequest)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.u.SwaggerConfigResource:
+	{GET [/v3/api-docs/swagger-config], produces [application/json]}: openapiJson(HttpServletRequest)
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 29 mappings in 'requestMappingHandlerMapping'
+""06-10-2024 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+""06-10-2024 [main] WARN  o.s.amqp.rabbit.core.RabbitAdmin - RabbitAdmin auto declaration is not supported with CacheMode.CONNECTION
+""06-10-2024 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+""06-10-2024 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+""06-10-2024 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""06-10-2024 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@18bab95b
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@712dd0b0
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+""06-10-2024 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/administracao/pessoa/findUfByJPQL/1/100", parameters={}
+""06-10-2024 [http-nio-8080-exec-1] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to br.com.cadastroit.services.web.controllers.PessoaController#findUfByJPQL(Long, int, int, Map)
+""06-10-2024 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* dynamic native SQL query */ SELECT
+        COUNT (*) 
+    FROM
+        PESSOA P 
+    INNER JOIN
+        ESTADO E 
+            ON E.ID = P.ESTADO_ID 
+    WHERE
+        P.ESTADO_ID = '25';
+""06-10-2024 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* dynamic native SQL query */ SELECT
+        P.ID,
+        P.NOME,
+        P.RAZAOSOCIAL,
+        P.STATUS,
+        P.TIPOPESSOA,
+        P.ESTADO_ID,
+        P.UPDATEAT,
+        P.ENDERECO_ID,
+        P.TELEFONE_ID 
+    FROM
+        PESSOA P 
+    INNER JOIN
+        ESTADO E 
+            ON E.ID = P.ESTADO_ID 
+    WHERE
+        P.ESTADO_ID = '25' 
+    ORDER BY
+        P.ID DESC limit ?
+""06-10-2024 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json, application/cbor, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+""06-10-2024 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[PessoaDTO(id=2, nome=PATRICIA, razaosocial=RAZAOSOCIAL, tipoPessoa=FISICA, tipoTelefone=null, statu (truncated)...]
+""06-10-2024 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""06-10-2024 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/administracao/telefone/all/1/100", parameters={}
+""06-10-2024 [http-nio-8080-exec-4] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to br.com.cadastroit.services.web.controllers.TelefoneController#all(Long, Map, int, int)
+""06-10-2024 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    /* select
+        count(generatedAlias0) 
+    from
+        Telefone as generatedAlias0 
+    inner join
+        generatedAlias0.pessoa as generatedAlias1 
+    where
+        generatedAlias1.id=2L */ select
+            count(telefone0_.ID) as col_0_0_ 
+        from
+            sistema.Telefone telefone0_ 
+        inner join
+            sistema.PESSOA pessoa1_ 
+                on telefone0_.PESSOA_ID=pessoa1_.ID 
+        where
+            pessoa1_.ID=2
+""06-10-2024 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Telefone as generatedAlias0 
+    inner join
+        generatedAlias0.pessoa as generatedAlias1 
+    where
+        generatedAlias1.id=2L */ select
+            telefone0_.ID as id1_4_,
+            telefone0_.DDD as ddd2_4_,
+            telefone0_.NUMERO as numero3_4_,
+            telefone0_.PESSOA_ID as pessoa_i5_4_,
+            telefone0_.tipoTelefone as tipotele4_4_ 
+        from
+            sistema.Telefone telefone0_ 
+        inner join
+            sistema.PESSOA pessoa1_ 
+                on telefone0_.PESSOA_ID=pessoa1_.ID 
+        where
+            pessoa1_.ID=2 limit ?
+""06-10-2024 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        pessoa0_.ID as id1_3_0_,
+        pessoa0_.createAt as createat2_3_0_,
+        pessoa0_.ENDERECO_ID as endereco8_3_0_,
+        pessoa0_.NOME as nome3_3_0_,
+        pessoa0_.RAZAOSOCIAL as razaosoc4_3_0_,
+        pessoa0_.status as status5_3_0_,
+        pessoa0_.TELEFONE_ID as telefone9_3_0_,
+        pessoa0_.TIPOPESSOA as tipopess6_3_0_,
+        pessoa0_.ESTADO_ID as estado_10_3_0_,
+        pessoa0_.updateAt as updateat7_3_0_,
+        endereco1_.ID as id1_0_1_,
+        endereco1_.BAIRRO as bairro2_0_1_,
+        endereco1_.ENDERECO as endereco3_0_1_,
+        endereco1_.ESTADO_ID as estado_i6_0_1_,
+        endereco1_.NUMERO as numero4_0_1_,
+        endereco1_.PESSOA_ID as pessoa_i7_0_1_,
+        endereco1_.tipoEndereco as tipoende5_0_1_,
+        estado2_.ID as id1_1_2_,
+        estado2_.NOME as nome2_1_2_,
+        estado2_.PAIS_ID as pais_id4_1_2_,
+        estado2_.SIGLA as sigla3_1_2_,
+        pais3_.ID as id1_2_3_,
+        pais3_.DESCR as descr2_2_3_,
+        pais3_.SIGLA_PAIS as sigla_pa3_2_3_,
+        pessoa4_.ID as id1_3_4_,
+        pessoa4_.createAt as createat2_3_4_,
+        pessoa4_.ENDERECO_ID as endereco8_3_4_,
+        pessoa4_.NOME as nome3_3_4_,
+        pessoa4_.RAZAOSOCIAL as razaosoc4_3_4_,
+        pessoa4_.status as status5_3_4_,
+        pessoa4_.TELEFONE_ID as telefone9_3_4_,
+        pessoa4_.TIPOPESSOA as tipopess6_3_4_,
+        pessoa4_.ESTADO_ID as estado_10_3_4_,
+        pessoa4_.updateAt as updateat7_3_4_,
+        telefone5_.ID as id1_4_5_,
+        telefone5_.DDD as ddd2_4_5_,
+        telefone5_.NUMERO as numero3_4_5_,
+        telefone5_.PESSOA_ID as pessoa_i5_4_5_,
+        telefone5_.tipoTelefone as tipotele4_4_5_,
+        pessoa6_.ID as id1_3_6_,
+        pessoa6_.createAt as createat2_3_6_,
+        pessoa6_.ENDERECO_ID as endereco8_3_6_,
+        pessoa6_.NOME as nome3_3_6_,
+        pessoa6_.RAZAOSOCIAL as razaosoc4_3_6_,
+        pessoa6_.status as status5_3_6_,
+        pessoa6_.TELEFONE_ID as telefone9_3_6_,
+        pessoa6_.TIPOPESSOA as tipopess6_3_6_,
+        pessoa6_.ESTADO_ID as estado_10_3_6_,
+        pessoa6_.updateAt as updateat7_3_6_,
+        estado7_.ID as id1_1_7_,
+        estado7_.NOME as nome2_1_7_,
+        estado7_.PAIS_ID as pais_id4_1_7_,
+        estado7_.SIGLA as sigla3_1_7_ 
+    from
+        sistema.PESSOA pessoa0_ 
+    left outer join
+        sistema.ENDERECO endereco1_ 
+            on pessoa0_.ENDERECO_ID=endereco1_.ID 
+    left outer join
+        sistema.ESTADO estado2_ 
+            on endereco1_.ESTADO_ID=estado2_.ID 
+    left outer join
+        sistema.PAIS pais3_ 
+            on estado2_.PAIS_ID=pais3_.ID 
+    left outer join
+        sistema.PESSOA pessoa4_ 
+            on endereco1_.PESSOA_ID=pessoa4_.ID 
+    left outer join
+        sistema.Telefone telefone5_ 
+            on pessoa4_.TELEFONE_ID=telefone5_.ID 
+    left outer join
+        sistema.PESSOA pessoa6_ 
+            on telefone5_.PESSOA_ID=pessoa6_.ID 
+    left outer join
+        sistema.ESTADO estado7_ 
+            on pessoa6_.ESTADO_ID=estado7_.ID 
+    where
+        pessoa0_.ID=?
+""06-10-2024 [http-nio-8080-exec-4] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+""06-10-2024 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json, application/cbor, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+""06-10-2024 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[TelefoneDTO(id=4, ddd=12, numero=997130870, pessoa=PessoaResumoDTO(id=2, nome=PATRICIA, nomeEstado= (truncated)...]
+""06-10-2024 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""06-10-2024 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/administracao/estado/find/1", parameters={}
+""06-10-2024 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to br.com.cadastroit.services.web.controllers.EstadoController#find(Long, Long)
+""06-10-2024 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Estado as generatedAlias0 
+    inner join
+        generatedAlias0.pais as generatedAlias1 
+    where
+        (
+            generatedAlias1.id=1L 
+        ) 
+        and (
+            generatedAlias0.id=1L 
+        ) */ select
+            estado0_.ID as id1_1_,
+            estado0_.NOME as nome2_1_,
+            estado0_.PAIS_ID as pais_id4_1_,
+            estado0_.SIGLA as sigla3_1_ 
+        from
+            sistema.ESTADO estado0_ 
+        inner join
+            sistema.PAIS pais1_ 
+                on estado0_.PAIS_ID=pais1_.ID 
+        where
+            pais1_.ID=1 
+            and estado0_.ID=1
+""06-10-2024 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        pais0_.ID as id1_2_0_,
+        pais0_.DESCR as descr2_2_0_,
+        pais0_.SIGLA_PAIS as sigla_pa3_2_0_ 
+    from
+        sistema.PAIS pais0_ 
+    where
+        pais0_.ID=?
+""06-10-2024 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+""06-10-2024 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json, application/cbor, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+""06-10-2024 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [EstadoDTO(id=1, nome=ACRE, sigla=AC, pais=PaisDTO(id=1, descr=BRASIL, siglaPais=BR, estadoCollection (truncated)...]
+""06-10-2024 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/administracao/pessoa/findByJPQL/SP/1/100", parameters={}
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+""06-10-2024 [http-nio-8080-exec-3] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+""06-10-2024 [http-nio-8080-exec-3] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json, application/cbor, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sun Oct 06 00:26:26 BRT 2024, status=404, error=Not Found, path=/administracao/pessoa/fin (truncated)...]
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+""06-10-2024 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/administracao/pessoa/all/1/100?order=desc&resumir=false", parameters={masked}
+""06-10-2024 [http-nio-8080-exec-6] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to br.com.cadastroit.services.web.controllers.PessoaController#all(Long, Map, int, int)
+""06-10-2024 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    /* select
+        count(generatedAlias0) 
+    from
+        Pessoa as generatedAlias0 
+    where
+        1=1 */ select
+            count(pessoa0_.ID) as col_0_0_ 
+        from
+            sistema.PESSOA pessoa0_ 
+        where
+            1=1
+""06-10-2024 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Pessoa as generatedAlias0 
+    inner join
+        generatedAlias0.uf as generatedAlias1 
+    order by
+        generatedAlias0.id desc */ select
+            pessoa0_.ID as id1_3_,
+            pessoa0_.createAt as createat2_3_,
+            pessoa0_.ENDERECO_ID as endereco8_3_,
+            pessoa0_.NOME as nome3_3_,
+            pessoa0_.RAZAOSOCIAL as razaosoc4_3_,
+            pessoa0_.status as status5_3_,
+            pessoa0_.TELEFONE_ID as telefone9_3_,
+            pessoa0_.TIPOPESSOA as tipopess6_3_,
+            pessoa0_.ESTADO_ID as estado_10_3_,
+            pessoa0_.updateAt as updateat7_3_ 
+        from
+            sistema.PESSOA pessoa0_ 
+        inner join
+            sistema.ESTADO estado1_ 
+                on pessoa0_.ESTADO_ID=estado1_.ID 
+        order by
+            pessoa0_.ID desc limit ?
+""06-10-2024 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        telefone0_.ID as id1_4_0_,
+        telefone0_.DDD as ddd2_4_0_,
+        telefone0_.NUMERO as numero3_4_0_,
+        telefone0_.PESSOA_ID as pessoa_i5_4_0_,
+        telefone0_.tipoTelefone as tipotele4_4_0_,
+        pessoa1_.ID as id1_3_1_,
+        pessoa1_.createAt as createat2_3_1_,
+        pessoa1_.ENDERECO_ID as endereco8_3_1_,
+        pessoa1_.NOME as nome3_3_1_,
+        pessoa1_.RAZAOSOCIAL as razaosoc4_3_1_,
+        pessoa1_.status as status5_3_1_,
+        pessoa1_.TELEFONE_ID as telefone9_3_1_,
+        pessoa1_.TIPOPESSOA as tipopess6_3_1_,
+        pessoa1_.ESTADO_ID as estado_10_3_1_,
+        pessoa1_.updateAt as updateat7_3_1_,
+        endereco2_.ID as id1_0_2_,
+        endereco2_.BAIRRO as bairro2_0_2_,
+        endereco2_.ENDERECO as endereco3_0_2_,
+        endereco2_.ESTADO_ID as estado_i6_0_2_,
+        endereco2_.NUMERO as numero4_0_2_,
+        endereco2_.PESSOA_ID as pessoa_i7_0_2_,
+        endereco2_.tipoEndereco as tipoende5_0_2_,
+        estado3_.ID as id1_1_3_,
+        estado3_.NOME as nome2_1_3_,
+        estado3_.PAIS_ID as pais_id4_1_3_,
+        estado3_.SIGLA as sigla3_1_3_,
+        pais4_.ID as id1_2_4_,
+        pais4_.DESCR as descr2_2_4_,
+        pais4_.SIGLA_PAIS as sigla_pa3_2_4_,
+        pessoa5_.ID as id1_3_5_,
+        pessoa5_.createAt as createat2_3_5_,
+        pessoa5_.ENDERECO_ID as endereco8_3_5_,
+        pessoa5_.NOME as nome3_3_5_,
+        pessoa5_.RAZAOSOCIAL as razaosoc4_3_5_,
+        pessoa5_.status as status5_3_5_,
+        pessoa5_.TELEFONE_ID as telefone9_3_5_,
+        pessoa5_.TIPOPESSOA as tipopess6_3_5_,
+        pessoa5_.ESTADO_ID as estado_10_3_5_,
+        pessoa5_.updateAt as updateat7_3_5_,
+        telefone6_.ID as id1_4_6_,
+        telefone6_.DDD as ddd2_4_6_,
+        telefone6_.NUMERO as numero3_4_6_,
+        telefone6_.PESSOA_ID as pessoa_i5_4_6_,
+        telefone6_.tipoTelefone as tipotele4_4_6_,
+        estado7_.ID as id1_1_7_,
+        estado7_.NOME as nome2_1_7_,
+        estado7_.PAIS_ID as pais_id4_1_7_,
+        estado7_.SIGLA as sigla3_1_7_ 
+    from
+        sistema.Telefone telefone0_ 
+    left outer join
+        sistema.PESSOA pessoa1_ 
+            on telefone0_.PESSOA_ID=pessoa1_.ID 
+    left outer join
+        sistema.ENDERECO endereco2_ 
+            on pessoa1_.ENDERECO_ID=endereco2_.ID 
+    left outer join
+        sistema.ESTADO estado3_ 
+            on endereco2_.ESTADO_ID=estado3_.ID 
+    left outer join
+        sistema.PAIS pais4_ 
+            on estado3_.PAIS_ID=pais4_.ID 
+    left outer join
+        sistema.PESSOA pessoa5_ 
+            on endereco2_.PESSOA_ID=pessoa5_.ID 
+    left outer join
+        sistema.Telefone telefone6_ 
+            on pessoa5_.TELEFONE_ID=telefone6_.ID 
+    left outer join
+        sistema.ESTADO estado7_ 
+            on pessoa5_.ESTADO_ID=estado7_.ID 
+    where
+        telefone0_.ID=?
+""06-10-2024 [http-nio-8080-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+""06-10-2024 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        estado0_.ID as id1_1_0_,
+        estado0_.NOME as nome2_1_0_,
+        estado0_.PAIS_ID as pais_id4_1_0_,
+        estado0_.SIGLA as sigla3_1_0_,
+        pais1_.ID as id1_2_1_,
+        pais1_.DESCR as descr2_2_1_,
+        pais1_.SIGLA_PAIS as sigla_pa3_2_1_ 
+    from
+        sistema.ESTADO estado0_ 
+    left outer join
+        sistema.PAIS pais1_ 
+            on estado0_.PAIS_ID=pais1_.ID 
+    where
+        estado0_.ID=?
+""06-10-2024 [http-nio-8080-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [13]
+""06-10-2024 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        endereco0_.ID as id1_0_0_,
+        endereco0_.BAIRRO as bairro2_0_0_,
+        endereco0_.ENDERECO as endereco3_0_0_,
+        endereco0_.ESTADO_ID as estado_i6_0_0_,
+        endereco0_.NUMERO as numero4_0_0_,
+        endereco0_.PESSOA_ID as pessoa_i7_0_0_,
+        endereco0_.tipoEndereco as tipoende5_0_0_,
+        estado1_.ID as id1_1_1_,
+        estado1_.NOME as nome2_1_1_,
+        estado1_.PAIS_ID as pais_id4_1_1_,
+        estado1_.SIGLA as sigla3_1_1_,
+        pais2_.ID as id1_2_2_,
+        pais2_.DESCR as descr2_2_2_,
+        pais2_.SIGLA_PAIS as sigla_pa3_2_2_,
+        pessoa3_.ID as id1_3_3_,
+        pessoa3_.createAt as createat2_3_3_,
+        pessoa3_.ENDERECO_ID as endereco8_3_3_,
+        pessoa3_.NOME as nome3_3_3_,
+        pessoa3_.RAZAOSOCIAL as razaosoc4_3_3_,
+        pessoa3_.status as status5_3_3_,
+        pessoa3_.TELEFONE_ID as telefone9_3_3_,
+        pessoa3_.TIPOPESSOA as tipopess6_3_3_,
+        pessoa3_.ESTADO_ID as estado_10_3_3_,
+        pessoa3_.updateAt as updateat7_3_3_,
+        endereco4_.ID as id1_0_4_,
+        endereco4_.BAIRRO as bairro2_0_4_,
+        endereco4_.ENDERECO as endereco3_0_4_,
+        endereco4_.ESTADO_ID as estado_i6_0_4_,
+        endereco4_.NUMERO as numero4_0_4_,
+        endereco4_.PESSOA_ID as pessoa_i7_0_4_,
+        endereco4_.tipoEndereco as tipoende5_0_4_,
+        telefone5_.ID as id1_4_5_,
+        telefone5_.DDD as ddd2_4_5_,
+        telefone5_.NUMERO as numero3_4_5_,
+        telefone5_.PESSOA_ID as pessoa_i5_4_5_,
+        telefone5_.tipoTelefone as tipotele4_4_5_,
+        pessoa6_.ID as id1_3_6_,
+        pessoa6_.createAt as createat2_3_6_,
+        pessoa6_.ENDERECO_ID as endereco8_3_6_,
+        pessoa6_.NOME as nome3_3_6_,
+        pessoa6_.RAZAOSOCIAL as razaosoc4_3_6_,
+        pessoa6_.status as status5_3_6_,
+        pessoa6_.TELEFONE_ID as telefone9_3_6_,
+        pessoa6_.TIPOPESSOA as tipopess6_3_6_,
+        pessoa6_.ESTADO_ID as estado_10_3_6_,
+        pessoa6_.updateAt as updateat7_3_6_,
+        estado7_.ID as id1_1_7_,
+        estado7_.NOME as nome2_1_7_,
+        estado7_.PAIS_ID as pais_id4_1_7_,
+        estado7_.SIGLA as sigla3_1_7_ 
+    from
+        sistema.ENDERECO endereco0_ 
+    left outer join
+        sistema.ESTADO estado1_ 
+            on endereco0_.ESTADO_ID=estado1_.ID 
+    left outer join
+        sistema.PAIS pais2_ 
+            on estado1_.PAIS_ID=pais2_.ID 
+    left outer join
+        sistema.PESSOA pessoa3_ 
+            on endereco0_.PESSOA_ID=pessoa3_.ID 
+    left outer join
+        sistema.ENDERECO endereco4_ 
+            on pessoa3_.ENDERECO_ID=endereco4_.ID 
+    left outer join
+        sistema.Telefone telefone5_ 
+            on pessoa3_.TELEFONE_ID=telefone5_.ID 
+    left outer join
+        sistema.PESSOA pessoa6_ 
+            on telefone5_.PESSOA_ID=pessoa6_.ID 
+    left outer join
+        sistema.ESTADO estado7_ 
+            on pessoa6_.ESTADO_ID=estado7_.ID 
+    where
+        endereco0_.ID=?
+""06-10-2024 [http-nio-8080-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [3]
+""06-10-2024 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json, application/cbor, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+""06-10-2024 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[PessoaDTO(id=3, nome=JOAO PEDRO, razaosocial=RAZAOSOCIAL, tipoPessoa=FISICA, tipoTelefone=null, sta (truncated)...]
+""06-10-2024 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""06-10-2024 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+""06-10-2024 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+""06-10-2024 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""06-10-2024 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+""06-10-2024 [main] WARN  com.zaxxer.hikari.HikariConfig - POSTGRESQL-POOL - idleTimeout is close to or more than maxLifetime, disabling it.
+""06-10-2024 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""06-10-2024 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""06-10-2024 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.EstadoController:
+	{GET [/administracao/estado/find/{id}]}: find(Long,Long)
+	{DELETE [/administracao/estado/delete/{id}]}: delete(Long,Long)
+	{GET [/administracao/estado/all/{page}/{length}]}: all(Long,Map,int,int)
+	{POST [/administracao/estado/findByFilters/{page}/{length}]}: findByFilters(Long,Map,int,int,EstadoDTO)
+	{GET [/administracao/estado/maxId]}: maxId(Long)
+	{GET [/administracao/estado/porta]}: findPort(String)
+	{POST [/administracao/estado/create]}: handlePost(Long,EstadoDTO)
+	{PUT [/administracao/estado/update/{id}]}: handleUpdate(Long,Long,EstadoDTO)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.PessoaController:
+	{GET [/administracao/pessoa/find/{id}]}: find(Long,String)
+	{GET [/administracao/pessoa/status]}: status(String)
+	{GET [/administracao/pessoa/all/{page}/{length}]}: all(Long,Map,int,int)
+	{GET [/administracao/pessoa/findUfByJPQL/{page}/{length}]}: findUfByJPQL(Long,int,int,Map)
+	{GET [/administracao/pessoa/findUfByCriteria/{uf}]}: findUfByCriteria(String,String)
+	{GET [/administracao/pessoa/maxId]}: maxId()
+	{GET [/administracao/pessoa/findByQueryParam/{uf}]}: findByQueryParam(String)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	b.c.c.s.w.c.TelefoneController:
+	{GET [/administracao/telefone/find/{id}]}: find(Long,Long)
+	{DELETE [/administracao/telefone/delete/{id}]}: delete(Long,Long)
+	{GET [/administracao/telefone/all/{page}/{length}]}: all(Long,Map,int,int)
+	{POST [/administracao/telefone/findByFilters/{page}/{length}]}: findByFilters(Long,Map,int,int,TelefoneDTO)
+	{GET [/administracao/telefone/maxId]}: maxId(Long)
+	{GET [/administracao/telefone/porta]}: findPort(String)
+	{POST [/administracao/telefone/create]}: handlePost(Long,TelefoneDTO)
+	{PUT [/administracao/telefone/update/{id}]}: handleUpdate(Long,Long,TelefoneDTO)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.a.OpenApiWebMvcResource:
+	{GET [/v3/api-docs], produces [application/json]}: openapiJson(HttpServletRequest,String,Locale)
+	{GET [/v3/api-docs.yaml], produces [application/vnd.oai.openapi]}: openapiYaml(HttpServletRequest,String,Locale)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.u.SwaggerWelcomeWebMvc:
+	{GET [/swagger-ui.html]}: redirectToUi(HttpServletRequest)
+""06-10-2024 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.u.SwaggerConfigResource:
+	{GET [/v3/api-docs/swagger-config], produces [application/json]}: openapiJson(HttpServletRequest)
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 29 mappings in 'requestMappingHandlerMapping'
+""06-10-2024 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+""06-10-2024 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+""06-10-2024 [main] WARN  o.s.amqp.rabbit.core.RabbitAdmin - RabbitAdmin auto declaration is not supported with CacheMode.CONNECTION
+""06-10-2024 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+""06-10-2024 [main] WARN  o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+""06-10-2024 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""06-10-2024 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4d9ad37e
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3d9c69f8
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""06-10-2024 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+""06-10-2024 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/administracao/pessoa/all/1/100?order=desc&resumir=false", parameters={masked}
+""06-10-2024 [http-nio-8080-exec-4] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to br.com.cadastroit.services.web.controllers.PessoaController#all(Long, Map, int, int)
+""06-10-2024 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    /* select
+        count(generatedAlias0) 
+    from
+        Pessoa as generatedAlias0 
+    where
+        1=1 */ select
+            count(pessoa0_.ID) as col_0_0_ 
+        from
+            sistema.PESSOA pessoa0_ 
+        where
+            1=1
+""06-10-2024 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Pessoa as generatedAlias0 
+    inner join
+        generatedAlias0.uf as generatedAlias1 
+    order by
+        generatedAlias0.id desc */ select
+            pessoa0_.ID as id1_3_,
+            pessoa0_.createAt as createat2_3_,
+            pessoa0_.ENDERECO_ID as endereco8_3_,
+            pessoa0_.NOME as nome3_3_,
+            pessoa0_.RAZAOSOCIAL as razaosoc4_3_,
+            pessoa0_.status as status5_3_,
+            pessoa0_.TELEFONE_ID as telefone9_3_,
+            pessoa0_.TIPOPESSOA as tipopess6_3_,
+            pessoa0_.ESTADO_ID as estado_10_3_,
+            pessoa0_.updateAt as updateat7_3_ 
+        from
+            sistema.PESSOA pessoa0_ 
+        inner join
+            sistema.ESTADO estado1_ 
+                on pessoa0_.ESTADO_ID=estado1_.ID 
+        order by
+            pessoa0_.ID desc limit ?
+""06-10-2024 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        telefone0_.ID as id1_4_0_,
+        telefone0_.DDD as ddd2_4_0_,
+        telefone0_.NUMERO as numero3_4_0_,
+        telefone0_.PESSOA_ID as pessoa_i5_4_0_,
+        telefone0_.tipoTelefone as tipotele4_4_0_,
+        pessoa1_.ID as id1_3_1_,
+        pessoa1_.createAt as createat2_3_1_,
+        pessoa1_.ENDERECO_ID as endereco8_3_1_,
+        pessoa1_.NOME as nome3_3_1_,
+        pessoa1_.RAZAOSOCIAL as razaosoc4_3_1_,
+        pessoa1_.status as status5_3_1_,
+        pessoa1_.TELEFONE_ID as telefone9_3_1_,
+        pessoa1_.TIPOPESSOA as tipopess6_3_1_,
+        pessoa1_.ESTADO_ID as estado_10_3_1_,
+        pessoa1_.updateAt as updateat7_3_1_,
+        endereco2_.ID as id1_0_2_,
+        endereco2_.BAIRRO as bairro2_0_2_,
+        endereco2_.ENDERECO as endereco3_0_2_,
+        endereco2_.ESTADO_ID as estado_i6_0_2_,
+        endereco2_.NUMERO as numero4_0_2_,
+        endereco2_.PESSOA_ID as pessoa_i7_0_2_,
+        endereco2_.tipoEndereco as tipoende5_0_2_,
+        estado3_.ID as id1_1_3_,
+        estado3_.NOME as nome2_1_3_,
+        estado3_.PAIS_ID as pais_id4_1_3_,
+        estado3_.SIGLA as sigla3_1_3_,
+        pais4_.ID as id1_2_4_,
+        pais4_.DESCR as descr2_2_4_,
+        pais4_.SIGLA_PAIS as sigla_pa3_2_4_,
+        pessoa5_.ID as id1_3_5_,
+        pessoa5_.createAt as createat2_3_5_,
+        pessoa5_.ENDERECO_ID as endereco8_3_5_,
+        pessoa5_.NOME as nome3_3_5_,
+        pessoa5_.RAZAOSOCIAL as razaosoc4_3_5_,
+        pessoa5_.status as status5_3_5_,
+        pessoa5_.TELEFONE_ID as telefone9_3_5_,
+        pessoa5_.TIPOPESSOA as tipopess6_3_5_,
+        pessoa5_.ESTADO_ID as estado_10_3_5_,
+        pessoa5_.updateAt as updateat7_3_5_,
+        telefone6_.ID as id1_4_6_,
+        telefone6_.DDD as ddd2_4_6_,
+        telefone6_.NUMERO as numero3_4_6_,
+        telefone6_.PESSOA_ID as pessoa_i5_4_6_,
+        telefone6_.tipoTelefone as tipotele4_4_6_,
+        estado7_.ID as id1_1_7_,
+        estado7_.NOME as nome2_1_7_,
+        estado7_.PAIS_ID as pais_id4_1_7_,
+        estado7_.SIGLA as sigla3_1_7_ 
+    from
+        sistema.Telefone telefone0_ 
+    left outer join
+        sistema.PESSOA pessoa1_ 
+            on telefone0_.PESSOA_ID=pessoa1_.ID 
+    left outer join
+        sistema.ENDERECO endereco2_ 
+            on pessoa1_.ENDERECO_ID=endereco2_.ID 
+    left outer join
+        sistema.ESTADO estado3_ 
+            on endereco2_.ESTADO_ID=estado3_.ID 
+    left outer join
+        sistema.PAIS pais4_ 
+            on estado3_.PAIS_ID=pais4_.ID 
+    left outer join
+        sistema.PESSOA pessoa5_ 
+            on endereco2_.PESSOA_ID=pessoa5_.ID 
+    left outer join
+        sistema.Telefone telefone6_ 
+            on pessoa5_.TELEFONE_ID=telefone6_.ID 
+    left outer join
+        sistema.ESTADO estado7_ 
+            on pessoa5_.ESTADO_ID=estado7_.ID 
+    where
+        telefone0_.ID=?
+""06-10-2024 [http-nio-8080-exec-4] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+""06-10-2024 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        estado0_.ID as id1_1_0_,
+        estado0_.NOME as nome2_1_0_,
+        estado0_.PAIS_ID as pais_id4_1_0_,
+        estado0_.SIGLA as sigla3_1_0_,
+        pais1_.ID as id1_2_1_,
+        pais1_.DESCR as descr2_2_1_,
+        pais1_.SIGLA_PAIS as sigla_pa3_2_1_ 
+    from
+        sistema.ESTADO estado0_ 
+    left outer join
+        sistema.PAIS pais1_ 
+            on estado0_.PAIS_ID=pais1_.ID 
+    where
+        estado0_.ID=?
+""06-10-2024 [http-nio-8080-exec-4] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [13]
+""06-10-2024 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        endereco0_.ID as id1_0_0_,
+        endereco0_.BAIRRO as bairro2_0_0_,
+        endereco0_.ENDERECO as endereco3_0_0_,
+        endereco0_.ESTADO_ID as estado_i6_0_0_,
+        endereco0_.NUMERO as numero4_0_0_,
+        endereco0_.PESSOA_ID as pessoa_i7_0_0_,
+        endereco0_.tipoEndereco as tipoende5_0_0_,
+        estado1_.ID as id1_1_1_,
+        estado1_.NOME as nome2_1_1_,
+        estado1_.PAIS_ID as pais_id4_1_1_,
+        estado1_.SIGLA as sigla3_1_1_,
+        pais2_.ID as id1_2_2_,
+        pais2_.DESCR as descr2_2_2_,
+        pais2_.SIGLA_PAIS as sigla_pa3_2_2_,
+        pessoa3_.ID as id1_3_3_,
+        pessoa3_.createAt as createat2_3_3_,
+        pessoa3_.ENDERECO_ID as endereco8_3_3_,
+        pessoa3_.NOME as nome3_3_3_,
+        pessoa3_.RAZAOSOCIAL as razaosoc4_3_3_,
+        pessoa3_.status as status5_3_3_,
+        pessoa3_.TELEFONE_ID as telefone9_3_3_,
+        pessoa3_.TIPOPESSOA as tipopess6_3_3_,
+        pessoa3_.ESTADO_ID as estado_10_3_3_,
+        pessoa3_.updateAt as updateat7_3_3_,
+        endereco4_.ID as id1_0_4_,
+        endereco4_.BAIRRO as bairro2_0_4_,
+        endereco4_.ENDERECO as endereco3_0_4_,
+        endereco4_.ESTADO_ID as estado_i6_0_4_,
+        endereco4_.NUMERO as numero4_0_4_,
+        endereco4_.PESSOA_ID as pessoa_i7_0_4_,
+        endereco4_.tipoEndereco as tipoende5_0_4_,
+        telefone5_.ID as id1_4_5_,
+        telefone5_.DDD as ddd2_4_5_,
+        telefone5_.NUMERO as numero3_4_5_,
+        telefone5_.PESSOA_ID as pessoa_i5_4_5_,
+        telefone5_.tipoTelefone as tipotele4_4_5_,
+        pessoa6_.ID as id1_3_6_,
+        pessoa6_.createAt as createat2_3_6_,
+        pessoa6_.ENDERECO_ID as endereco8_3_6_,
+        pessoa6_.NOME as nome3_3_6_,
+        pessoa6_.RAZAOSOCIAL as razaosoc4_3_6_,
+        pessoa6_.status as status5_3_6_,
+        pessoa6_.TELEFONE_ID as telefone9_3_6_,
+        pessoa6_.TIPOPESSOA as tipopess6_3_6_,
+        pessoa6_.ESTADO_ID as estado_10_3_6_,
+        pessoa6_.updateAt as updateat7_3_6_,
+        estado7_.ID as id1_1_7_,
+        estado7_.NOME as nome2_1_7_,
+        estado7_.PAIS_ID as pais_id4_1_7_,
+        estado7_.SIGLA as sigla3_1_7_ 
+    from
+        sistema.ENDERECO endereco0_ 
+    left outer join
+        sistema.ESTADO estado1_ 
+            on endereco0_.ESTADO_ID=estado1_.ID 
+    left outer join
+        sistema.PAIS pais2_ 
+            on estado1_.PAIS_ID=pais2_.ID 
+    left outer join
+        sistema.PESSOA pessoa3_ 
+            on endereco0_.PESSOA_ID=pessoa3_.ID 
+    left outer join
+        sistema.ENDERECO endereco4_ 
+            on pessoa3_.ENDERECO_ID=endereco4_.ID 
+    left outer join
+        sistema.Telefone telefone5_ 
+            on pessoa3_.TELEFONE_ID=telefone5_.ID 
+    left outer join
+        sistema.PESSOA pessoa6_ 
+            on telefone5_.PESSOA_ID=pessoa6_.ID 
+    left outer join
+        sistema.ESTADO estado7_ 
+            on pessoa6_.ESTADO_ID=estado7_.ID 
+    where
+        endereco0_.ID=?
+""06-10-2024 [http-nio-8080-exec-4] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [3]
+""06-10-2024 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json, application/cbor, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+""06-10-2024 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[PessoaDTO(id=3, nome=JOAO PEDRO, razaosocial=RAZAOSOCIAL, tipoPessoa=FISICA, tipoTelefone=null, sta (truncated)...]
+""06-10-2024 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""06-10-2024 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/administracao/pessoa/all/1/100?order=desc&resumir=true", parameters={masked}
+""06-10-2024 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to br.com.cadastroit.services.web.controllers.PessoaController#all(Long, Map, int, int)
+""06-10-2024 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* select
+        count(generatedAlias0) 
+    from
+        Pessoa as generatedAlias0 
+    where
+        1=1 */ select
+            count(pessoa0_.ID) as col_0_0_ 
+        from
+            sistema.PESSOA pessoa0_ 
+        where
+            1=1
+""06-10-2024 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Pessoa as generatedAlias0 
+    inner join
+        generatedAlias0.uf as generatedAlias1 
+    order by
+        generatedAlias0.id desc */ select
+            pessoa0_.ID as id1_3_,
+            pessoa0_.createAt as createat2_3_,
+            pessoa0_.ENDERECO_ID as endereco8_3_,
+            pessoa0_.NOME as nome3_3_,
+            pessoa0_.RAZAOSOCIAL as razaosoc4_3_,
+            pessoa0_.status as status5_3_,
+            pessoa0_.TELEFONE_ID as telefone9_3_,
+            pessoa0_.TIPOPESSOA as tipopess6_3_,
+            pessoa0_.ESTADO_ID as estado_10_3_,
+            pessoa0_.updateAt as updateat7_3_ 
+        from
+            sistema.PESSOA pessoa0_ 
+        inner join
+            sistema.ESTADO estado1_ 
+                on pessoa0_.ESTADO_ID=estado1_.ID 
+        order by
+            pessoa0_.ID desc limit ?
+""06-10-2024 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        telefone0_.ID as id1_4_0_,
+        telefone0_.DDD as ddd2_4_0_,
+        telefone0_.NUMERO as numero3_4_0_,
+        telefone0_.PESSOA_ID as pessoa_i5_4_0_,
+        telefone0_.tipoTelefone as tipotele4_4_0_,
+        pessoa1_.ID as id1_3_1_,
+        pessoa1_.createAt as createat2_3_1_,
+        pessoa1_.ENDERECO_ID as endereco8_3_1_,
+        pessoa1_.NOME as nome3_3_1_,
+        pessoa1_.RAZAOSOCIAL as razaosoc4_3_1_,
+        pessoa1_.status as status5_3_1_,
+        pessoa1_.TELEFONE_ID as telefone9_3_1_,
+        pessoa1_.TIPOPESSOA as tipopess6_3_1_,
+        pessoa1_.ESTADO_ID as estado_10_3_1_,
+        pessoa1_.updateAt as updateat7_3_1_,
+        endereco2_.ID as id1_0_2_,
+        endereco2_.BAIRRO as bairro2_0_2_,
+        endereco2_.ENDERECO as endereco3_0_2_,
+        endereco2_.ESTADO_ID as estado_i6_0_2_,
+        endereco2_.NUMERO as numero4_0_2_,
+        endereco2_.PESSOA_ID as pessoa_i7_0_2_,
+        endereco2_.tipoEndereco as tipoende5_0_2_,
+        estado3_.ID as id1_1_3_,
+        estado3_.NOME as nome2_1_3_,
+        estado3_.PAIS_ID as pais_id4_1_3_,
+        estado3_.SIGLA as sigla3_1_3_,
+        pais4_.ID as id1_2_4_,
+        pais4_.DESCR as descr2_2_4_,
+        pais4_.SIGLA_PAIS as sigla_pa3_2_4_,
+        pessoa5_.ID as id1_3_5_,
+        pessoa5_.createAt as createat2_3_5_,
+        pessoa5_.ENDERECO_ID as endereco8_3_5_,
+        pessoa5_.NOME as nome3_3_5_,
+        pessoa5_.RAZAOSOCIAL as razaosoc4_3_5_,
+        pessoa5_.status as status5_3_5_,
+        pessoa5_.TELEFONE_ID as telefone9_3_5_,
+        pessoa5_.TIPOPESSOA as tipopess6_3_5_,
+        pessoa5_.ESTADO_ID as estado_10_3_5_,
+        pessoa5_.updateAt as updateat7_3_5_,
+        telefone6_.ID as id1_4_6_,
+        telefone6_.DDD as ddd2_4_6_,
+        telefone6_.NUMERO as numero3_4_6_,
+        telefone6_.PESSOA_ID as pessoa_i5_4_6_,
+        telefone6_.tipoTelefone as tipotele4_4_6_,
+        estado7_.ID as id1_1_7_,
+        estado7_.NOME as nome2_1_7_,
+        estado7_.PAIS_ID as pais_id4_1_7_,
+        estado7_.SIGLA as sigla3_1_7_ 
+    from
+        sistema.Telefone telefone0_ 
+    left outer join
+        sistema.PESSOA pessoa1_ 
+            on telefone0_.PESSOA_ID=pessoa1_.ID 
+    left outer join
+        sistema.ENDERECO endereco2_ 
+            on pessoa1_.ENDERECO_ID=endereco2_.ID 
+    left outer join
+        sistema.ESTADO estado3_ 
+            on endereco2_.ESTADO_ID=estado3_.ID 
+    left outer join
+        sistema.PAIS pais4_ 
+            on estado3_.PAIS_ID=pais4_.ID 
+    left outer join
+        sistema.PESSOA pessoa5_ 
+            on endereco2_.PESSOA_ID=pessoa5_.ID 
+    left outer join
+        sistema.Telefone telefone6_ 
+            on pessoa5_.TELEFONE_ID=telefone6_.ID 
+    left outer join
+        sistema.ESTADO estado7_ 
+            on pessoa5_.ESTADO_ID=estado7_.ID 
+    where
+        telefone0_.ID=?
+""06-10-2024 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+""06-10-2024 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        estado0_.ID as id1_1_0_,
+        estado0_.NOME as nome2_1_0_,
+        estado0_.PAIS_ID as pais_id4_1_0_,
+        estado0_.SIGLA as sigla3_1_0_,
+        pais1_.ID as id1_2_1_,
+        pais1_.DESCR as descr2_2_1_,
+        pais1_.SIGLA_PAIS as sigla_pa3_2_1_ 
+    from
+        sistema.ESTADO estado0_ 
+    left outer join
+        sistema.PAIS pais1_ 
+            on estado0_.PAIS_ID=pais1_.ID 
+    where
+        estado0_.ID=?
+""06-10-2024 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [13]
+""06-10-2024 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        endereco0_.ID as id1_0_0_,
+        endereco0_.BAIRRO as bairro2_0_0_,
+        endereco0_.ENDERECO as endereco3_0_0_,
+        endereco0_.ESTADO_ID as estado_i6_0_0_,
+        endereco0_.NUMERO as numero4_0_0_,
+        endereco0_.PESSOA_ID as pessoa_i7_0_0_,
+        endereco0_.tipoEndereco as tipoende5_0_0_,
+        estado1_.ID as id1_1_1_,
+        estado1_.NOME as nome2_1_1_,
+        estado1_.PAIS_ID as pais_id4_1_1_,
+        estado1_.SIGLA as sigla3_1_1_,
+        pais2_.ID as id1_2_2_,
+        pais2_.DESCR as descr2_2_2_,
+        pais2_.SIGLA_PAIS as sigla_pa3_2_2_,
+        pessoa3_.ID as id1_3_3_,
+        pessoa3_.createAt as createat2_3_3_,
+        pessoa3_.ENDERECO_ID as endereco8_3_3_,
+        pessoa3_.NOME as nome3_3_3_,
+        pessoa3_.RAZAOSOCIAL as razaosoc4_3_3_,
+        pessoa3_.status as status5_3_3_,
+        pessoa3_.TELEFONE_ID as telefone9_3_3_,
+        pessoa3_.TIPOPESSOA as tipopess6_3_3_,
+        pessoa3_.ESTADO_ID as estado_10_3_3_,
+        pessoa3_.updateAt as updateat7_3_3_,
+        endereco4_.ID as id1_0_4_,
+        endereco4_.BAIRRO as bairro2_0_4_,
+        endereco4_.ENDERECO as endereco3_0_4_,
+        endereco4_.ESTADO_ID as estado_i6_0_4_,
+        endereco4_.NUMERO as numero4_0_4_,
+        endereco4_.PESSOA_ID as pessoa_i7_0_4_,
+        endereco4_.tipoEndereco as tipoende5_0_4_,
+        telefone5_.ID as id1_4_5_,
+        telefone5_.DDD as ddd2_4_5_,
+        telefone5_.NUMERO as numero3_4_5_,
+        telefone5_.PESSOA_ID as pessoa_i5_4_5_,
+        telefone5_.tipoTelefone as tipotele4_4_5_,
+        pessoa6_.ID as id1_3_6_,
+        pessoa6_.createAt as createat2_3_6_,
+        pessoa6_.ENDERECO_ID as endereco8_3_6_,
+        pessoa6_.NOME as nome3_3_6_,
+        pessoa6_.RAZAOSOCIAL as razaosoc4_3_6_,
+        pessoa6_.status as status5_3_6_,
+        pessoa6_.TELEFONE_ID as telefone9_3_6_,
+        pessoa6_.TIPOPESSOA as tipopess6_3_6_,
+        pessoa6_.ESTADO_ID as estado_10_3_6_,
+        pessoa6_.updateAt as updateat7_3_6_,
+        estado7_.ID as id1_1_7_,
+        estado7_.NOME as nome2_1_7_,
+        estado7_.PAIS_ID as pais_id4_1_7_,
+        estado7_.SIGLA as sigla3_1_7_ 
+    from
+        sistema.ENDERECO endereco0_ 
+    left outer join
+        sistema.ESTADO estado1_ 
+            on endereco0_.ESTADO_ID=estado1_.ID 
+    left outer join
+        sistema.PAIS pais2_ 
+            on estado1_.PAIS_ID=pais2_.ID 
+    left outer join
+        sistema.PESSOA pessoa3_ 
+            on endereco0_.PESSOA_ID=pessoa3_.ID 
+    left outer join
+        sistema.ENDERECO endereco4_ 
+            on pessoa3_.ENDERECO_ID=endereco4_.ID 
+    left outer join
+        sistema.Telefone telefone5_ 
+            on pessoa3_.TELEFONE_ID=telefone5_.ID 
+    left outer join
+        sistema.PESSOA pessoa6_ 
+            on telefone5_.PESSOA_ID=pessoa6_.ID 
+    left outer join
+        sistema.ESTADO estado7_ 
+            on pessoa6_.ESTADO_ID=estado7_.ID 
+    where
+        endereco0_.ID=?
+""06-10-2024 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [3]
+""06-10-2024 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json, application/cbor, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+""06-10-2024 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[PessoaResumoDTO(id=3, nome=JOAO PEDRO, nomeEstado=MINAS GERAIS, siglaEstado=MG), PessoaResumoDTO(id (truncated)...]
+""06-10-2024 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""06-10-2024 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/administracao/telefone/all/1/100", parameters={}
+""06-10-2024 [http-nio-8080-exec-2] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to br.com.cadastroit.services.web.controllers.TelefoneController#all(Long, Map, int, int)
+""06-10-2024 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    /* select
+        count(generatedAlias0) 
+    from
+        Telefone as generatedAlias0 
+    inner join
+        generatedAlias0.pessoa as generatedAlias1 
+    where
+        generatedAlias1.id=2L */ select
+            count(telefone0_.ID) as col_0_0_ 
+        from
+            sistema.Telefone telefone0_ 
+        inner join
+            sistema.PESSOA pessoa1_ 
+                on telefone0_.PESSOA_ID=pessoa1_.ID 
+        where
+            pessoa1_.ID=2
+""06-10-2024 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Telefone as generatedAlias0 
+    inner join
+        generatedAlias0.pessoa as generatedAlias1 
+    where
+        generatedAlias1.id=2L */ select
+            telefone0_.ID as id1_4_,
+            telefone0_.DDD as ddd2_4_,
+            telefone0_.NUMERO as numero3_4_,
+            telefone0_.PESSOA_ID as pessoa_i5_4_,
+            telefone0_.tipoTelefone as tipotele4_4_ 
+        from
+            sistema.Telefone telefone0_ 
+        inner join
+            sistema.PESSOA pessoa1_ 
+                on telefone0_.PESSOA_ID=pessoa1_.ID 
+        where
+            pessoa1_.ID=2 limit ?
+""06-10-2024 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        pessoa0_.ID as id1_3_0_,
+        pessoa0_.createAt as createat2_3_0_,
+        pessoa0_.ENDERECO_ID as endereco8_3_0_,
+        pessoa0_.NOME as nome3_3_0_,
+        pessoa0_.RAZAOSOCIAL as razaosoc4_3_0_,
+        pessoa0_.status as status5_3_0_,
+        pessoa0_.TELEFONE_ID as telefone9_3_0_,
+        pessoa0_.TIPOPESSOA as tipopess6_3_0_,
+        pessoa0_.ESTADO_ID as estado_10_3_0_,
+        pessoa0_.updateAt as updateat7_3_0_,
+        endereco1_.ID as id1_0_1_,
+        endereco1_.BAIRRO as bairro2_0_1_,
+        endereco1_.ENDERECO as endereco3_0_1_,
+        endereco1_.ESTADO_ID as estado_i6_0_1_,
+        endereco1_.NUMERO as numero4_0_1_,
+        endereco1_.PESSOA_ID as pessoa_i7_0_1_,
+        endereco1_.tipoEndereco as tipoende5_0_1_,
+        estado2_.ID as id1_1_2_,
+        estado2_.NOME as nome2_1_2_,
+        estado2_.PAIS_ID as pais_id4_1_2_,
+        estado2_.SIGLA as sigla3_1_2_,
+        pais3_.ID as id1_2_3_,
+        pais3_.DESCR as descr2_2_3_,
+        pais3_.SIGLA_PAIS as sigla_pa3_2_3_,
+        pessoa4_.ID as id1_3_4_,
+        pessoa4_.createAt as createat2_3_4_,
+        pessoa4_.ENDERECO_ID as endereco8_3_4_,
+        pessoa4_.NOME as nome3_3_4_,
+        pessoa4_.RAZAOSOCIAL as razaosoc4_3_4_,
+        pessoa4_.status as status5_3_4_,
+        pessoa4_.TELEFONE_ID as telefone9_3_4_,
+        pessoa4_.TIPOPESSOA as tipopess6_3_4_,
+        pessoa4_.ESTADO_ID as estado_10_3_4_,
+        pessoa4_.updateAt as updateat7_3_4_,
+        telefone5_.ID as id1_4_5_,
+        telefone5_.DDD as ddd2_4_5_,
+        telefone5_.NUMERO as numero3_4_5_,
+        telefone5_.PESSOA_ID as pessoa_i5_4_5_,
+        telefone5_.tipoTelefone as tipotele4_4_5_,
+        pessoa6_.ID as id1_3_6_,
+        pessoa6_.createAt as createat2_3_6_,
+        pessoa6_.ENDERECO_ID as endereco8_3_6_,
+        pessoa6_.NOME as nome3_3_6_,
+        pessoa6_.RAZAOSOCIAL as razaosoc4_3_6_,
+        pessoa6_.status as status5_3_6_,
+        pessoa6_.TELEFONE_ID as telefone9_3_6_,
+        pessoa6_.TIPOPESSOA as tipopess6_3_6_,
+        pessoa6_.ESTADO_ID as estado_10_3_6_,
+        pessoa6_.updateAt as updateat7_3_6_,
+        estado7_.ID as id1_1_7_,
+        estado7_.NOME as nome2_1_7_,
+        estado7_.PAIS_ID as pais_id4_1_7_,
+        estado7_.SIGLA as sigla3_1_7_ 
+    from
+        sistema.PESSOA pessoa0_ 
+    left outer join
+        sistema.ENDERECO endereco1_ 
+            on pessoa0_.ENDERECO_ID=endereco1_.ID 
+    left outer join
+        sistema.ESTADO estado2_ 
+            on endereco1_.ESTADO_ID=estado2_.ID 
+    left outer join
+        sistema.PAIS pais3_ 
+            on estado2_.PAIS_ID=pais3_.ID 
+    left outer join
+        sistema.PESSOA pessoa4_ 
+            on endereco1_.PESSOA_ID=pessoa4_.ID 
+    left outer join
+        sistema.Telefone telefone5_ 
+            on pessoa4_.TELEFONE_ID=telefone5_.ID 
+    left outer join
+        sistema.PESSOA pessoa6_ 
+            on telefone5_.PESSOA_ID=pessoa6_.ID 
+    left outer join
+        sistema.ESTADO estado7_ 
+            on pessoa6_.ESTADO_ID=estado7_.ID 
+    where
+        pessoa0_.ID=?
+""06-10-2024 [http-nio-8080-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+""06-10-2024 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json, application/cbor, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+""06-10-2024 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[TelefoneDTO(id=4, ddd=12, numero=997130870, pessoa=PessoaResumoDTO(id=2, nome=PATRICIA, nomeEstado= (truncated)...]
+""06-10-2024 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/administracao/pessoa/findByUf/SP", parameters={}
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+""06-10-2024 [http-nio-8080-exec-3] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+""06-10-2024 [http-nio-8080-exec-3] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json, application/cbor, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sun Oct 06 00:27:43 BRT 2024, status=404, error=Not Found, path=/administracao/pessoa/fin (truncated)...]
+""06-10-2024 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+""06-10-2024 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/administracao/pessoa/findUfByCriteria/SP", parameters={}
+""06-10-2024 [http-nio-8080-exec-7] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to br.com.cadastroit.services.web.controllers.PessoaController#findUfByCriteria(String, String)
+""06-10-2024 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Pessoa as generatedAlias0 
+    inner join
+        generatedAlias0.uf as generatedAlias1 
+    where
+        generatedAlias1.sigla=:param0 */ select
+            pessoa0_.ID as id1_3_,
+            pessoa0_.createAt as createat2_3_,
+            pessoa0_.ENDERECO_ID as endereco8_3_,
+            pessoa0_.NOME as nome3_3_,
+            pessoa0_.RAZAOSOCIAL as razaosoc4_3_,
+            pessoa0_.status as status5_3_,
+            pessoa0_.TELEFONE_ID as telefone9_3_,
+            pessoa0_.TIPOPESSOA as tipopess6_3_,
+            pessoa0_.ESTADO_ID as estado_10_3_,
+            pessoa0_.updateAt as updateat7_3_ 
+        from
+            sistema.PESSOA pessoa0_ 
+        inner join
+            sistema.ESTADO estado1_ 
+                on pessoa0_.ESTADO_ID=estado1_.ID 
+        where
+            estado1_.SIGLA=?
+""06-10-2024 [http-nio-8080-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [SP]
+""06-10-2024 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        endereco0_.ID as id1_0_0_,
+        endereco0_.BAIRRO as bairro2_0_0_,
+        endereco0_.ENDERECO as endereco3_0_0_,
+        endereco0_.ESTADO_ID as estado_i6_0_0_,
+        endereco0_.NUMERO as numero4_0_0_,
+        endereco0_.PESSOA_ID as pessoa_i7_0_0_,
+        endereco0_.tipoEndereco as tipoende5_0_0_,
+        estado1_.ID as id1_1_1_,
+        estado1_.NOME as nome2_1_1_,
+        estado1_.PAIS_ID as pais_id4_1_1_,
+        estado1_.SIGLA as sigla3_1_1_,
+        pais2_.ID as id1_2_2_,
+        pais2_.DESCR as descr2_2_2_,
+        pais2_.SIGLA_PAIS as sigla_pa3_2_2_,
+        pessoa3_.ID as id1_3_3_,
+        pessoa3_.createAt as createat2_3_3_,
+        pessoa3_.ENDERECO_ID as endereco8_3_3_,
+        pessoa3_.NOME as nome3_3_3_,
+        pessoa3_.RAZAOSOCIAL as razaosoc4_3_3_,
+        pessoa3_.status as status5_3_3_,
+        pessoa3_.TELEFONE_ID as telefone9_3_3_,
+        pessoa3_.TIPOPESSOA as tipopess6_3_3_,
+        pessoa3_.ESTADO_ID as estado_10_3_3_,
+        pessoa3_.updateAt as updateat7_3_3_,
+        endereco4_.ID as id1_0_4_,
+        endereco4_.BAIRRO as bairro2_0_4_,
+        endereco4_.ENDERECO as endereco3_0_4_,
+        endereco4_.ESTADO_ID as estado_i6_0_4_,
+        endereco4_.NUMERO as numero4_0_4_,
+        endereco4_.PESSOA_ID as pessoa_i7_0_4_,
+        endereco4_.tipoEndereco as tipoende5_0_4_,
+        telefone5_.ID as id1_4_5_,
+        telefone5_.DDD as ddd2_4_5_,
+        telefone5_.NUMERO as numero3_4_5_,
+        telefone5_.PESSOA_ID as pessoa_i5_4_5_,
+        telefone5_.tipoTelefone as tipotele4_4_5_,
+        pessoa6_.ID as id1_3_6_,
+        pessoa6_.createAt as createat2_3_6_,
+        pessoa6_.ENDERECO_ID as endereco8_3_6_,
+        pessoa6_.NOME as nome3_3_6_,
+        pessoa6_.RAZAOSOCIAL as razaosoc4_3_6_,
+        pessoa6_.status as status5_3_6_,
+        pessoa6_.TELEFONE_ID as telefone9_3_6_,
+        pessoa6_.TIPOPESSOA as tipopess6_3_6_,
+        pessoa6_.ESTADO_ID as estado_10_3_6_,
+        pessoa6_.updateAt as updateat7_3_6_,
+        estado7_.ID as id1_1_7_,
+        estado7_.NOME as nome2_1_7_,
+        estado7_.PAIS_ID as pais_id4_1_7_,
+        estado7_.SIGLA as sigla3_1_7_ 
+    from
+        sistema.ENDERECO endereco0_ 
+    left outer join
+        sistema.ESTADO estado1_ 
+            on endereco0_.ESTADO_ID=estado1_.ID 
+    left outer join
+        sistema.PAIS pais2_ 
+            on estado1_.PAIS_ID=pais2_.ID 
+    left outer join
+        sistema.PESSOA pessoa3_ 
+            on endereco0_.PESSOA_ID=pessoa3_.ID 
+    left outer join
+        sistema.ENDERECO endereco4_ 
+            on pessoa3_.ENDERECO_ID=endereco4_.ID 
+    left outer join
+        sistema.Telefone telefone5_ 
+            on pessoa3_.TELEFONE_ID=telefone5_.ID 
+    left outer join
+        sistema.PESSOA pessoa6_ 
+            on telefone5_.PESSOA_ID=pessoa6_.ID 
+    left outer join
+        sistema.ESTADO estado7_ 
+            on pessoa6_.ESTADO_ID=estado7_.ID 
+    where
+        endereco0_.ID=?
+""06-10-2024 [http-nio-8080-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+""06-10-2024 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        endereco0_.ID as id1_0_0_,
+        endereco0_.BAIRRO as bairro2_0_0_,
+        endereco0_.ENDERECO as endereco3_0_0_,
+        endereco0_.ESTADO_ID as estado_i6_0_0_,
+        endereco0_.NUMERO as numero4_0_0_,
+        endereco0_.PESSOA_ID as pessoa_i7_0_0_,
+        endereco0_.tipoEndereco as tipoende5_0_0_,
+        estado1_.ID as id1_1_1_,
+        estado1_.NOME as nome2_1_1_,
+        estado1_.PAIS_ID as pais_id4_1_1_,
+        estado1_.SIGLA as sigla3_1_1_,
+        pais2_.ID as id1_2_2_,
+        pais2_.DESCR as descr2_2_2_,
+        pais2_.SIGLA_PAIS as sigla_pa3_2_2_,
+        pessoa3_.ID as id1_3_3_,
+        pessoa3_.createAt as createat2_3_3_,
+        pessoa3_.ENDERECO_ID as endereco8_3_3_,
+        pessoa3_.NOME as nome3_3_3_,
+        pessoa3_.RAZAOSOCIAL as razaosoc4_3_3_,
+        pessoa3_.status as status5_3_3_,
+        pessoa3_.TELEFONE_ID as telefone9_3_3_,
+        pessoa3_.TIPOPESSOA as tipopess6_3_3_,
+        pessoa3_.ESTADO_ID as estado_10_3_3_,
+        pessoa3_.updateAt as updateat7_3_3_,
+        endereco4_.ID as id1_0_4_,
+        endereco4_.BAIRRO as bairro2_0_4_,
+        endereco4_.ENDERECO as endereco3_0_4_,
+        endereco4_.ESTADO_ID as estado_i6_0_4_,
+        endereco4_.NUMERO as numero4_0_4_,
+        endereco4_.PESSOA_ID as pessoa_i7_0_4_,
+        endereco4_.tipoEndereco as tipoende5_0_4_,
+        telefone5_.ID as id1_4_5_,
+        telefone5_.DDD as ddd2_4_5_,
+        telefone5_.NUMERO as numero3_4_5_,
+        telefone5_.PESSOA_ID as pessoa_i5_4_5_,
+        telefone5_.tipoTelefone as tipotele4_4_5_,
+        pessoa6_.ID as id1_3_6_,
+        pessoa6_.createAt as createat2_3_6_,
+        pessoa6_.ENDERECO_ID as endereco8_3_6_,
+        pessoa6_.NOME as nome3_3_6_,
+        pessoa6_.RAZAOSOCIAL as razaosoc4_3_6_,
+        pessoa6_.status as status5_3_6_,
+        pessoa6_.TELEFONE_ID as telefone9_3_6_,
+        pessoa6_.TIPOPESSOA as tipopess6_3_6_,
+        pessoa6_.ESTADO_ID as estado_10_3_6_,
+        pessoa6_.updateAt as updateat7_3_6_,
+        estado7_.ID as id1_1_7_,
+        estado7_.NOME as nome2_1_7_,
+        estado7_.PAIS_ID as pais_id4_1_7_,
+        estado7_.SIGLA as sigla3_1_7_ 
+    from
+        sistema.ENDERECO endereco0_ 
+    left outer join
+        sistema.ESTADO estado1_ 
+            on endereco0_.ESTADO_ID=estado1_.ID 
+    left outer join
+        sistema.PAIS pais2_ 
+            on estado1_.PAIS_ID=pais2_.ID 
+    left outer join
+        sistema.PESSOA pessoa3_ 
+            on endereco0_.PESSOA_ID=pessoa3_.ID 
+    left outer join
+        sistema.ENDERECO endereco4_ 
+            on pessoa3_.ENDERECO_ID=endereco4_.ID 
+    left outer join
+        sistema.Telefone telefone5_ 
+            on pessoa3_.TELEFONE_ID=telefone5_.ID 
+    left outer join
+        sistema.PESSOA pessoa6_ 
+            on telefone5_.PESSOA_ID=pessoa6_.ID 
+    left outer join
+        sistema.ESTADO estado7_ 
+            on pessoa6_.ESTADO_ID=estado7_.ID 
+    where
+        endereco0_.ID=?
+""06-10-2024 [http-nio-8080-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [3]
+""06-10-2024 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json, application/cbor, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+""06-10-2024 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[PessoaDTO(id=1, nome=MARCELO, razaosocial=RAZAOSOCIAL, tipoPessoa=FISICA, tipoTelefone=null, status (truncated)...]
+""06-10-2024 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+"
